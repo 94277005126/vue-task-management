@@ -1,11 +1,11 @@
 <template>
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite a" />
-  <Login />
+  <n-message-provider>
+    <HelloWorld msg="Hello Vue 3 + TypeScript + Vite a" />
+  </n-message-provider>
 </template>
 
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-import Login from './pages/login/Login.vue'
 </script>
 
 <style lang="scss">
